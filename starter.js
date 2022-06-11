@@ -1,1 +1,0 @@
-document.getElementById('title').style.color = 'dark grey';
