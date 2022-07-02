@@ -1,0 +1,141 @@
+    1  history
+    2  ls
+    3  pwd
+    4  ls
+    5  ..
+    6  ls
+    7  mv reubennahouraii eruditestudent
+    8  sudo mv reubennahouraii to eruditestudent
+    9  ls
+   10  $ ssh-keygen -t ed25519 -C "jerdoa07@gmail.com"
+   11  cd .ssh
+   12  ls-a
+   13  ls~a
+   14  ls -a
+   15  cat id_ed25519.pub
+   16  cd
+   17  ls
+   18  mkdir Jeremy
+   19  ls
+   20  mkmdir jeremy
+   21  mkdir jeremy
+   22  ls
+   23  rmdir Jeremy
+   24  ls
+   25  mkdir jeremy
+   26  ls
+   27  pwd
+   28  cd jeremy
+   29  ls
+   30  history
+   31  ls
+   32  rm -r- jeremy
+   33  rm -rf jeremy
+   34  ls
+   35  pwd
+   36  ls
+   37  cd D
+   38  cd Downloads
+   39  pdw
+   40  ..
+   41  pdw
+   42  pwd
+   43  cd -
+   44  pwd
+   45  ..
+   46  cd .ssh
+   47  ls -a
+   48  ssh-keygen -t ed25519 -C "jerdoa07@gmail.com"
+   49  cd
+   50  cd /
+   51  pwd
+   52  cd 
+   53  pwd
+   54  ls -a
+   55  rm -r .ssh
+   56  ls
+   57  ls -a
+   58  ssh-keygen -t ed25519 -C "jerdoa07@gmail.com"
+   59  ls
+   60  ls -a
+   61  cat jeremy.pub
+   62  mkdir jeremy
+   63  cd jeremy
+   64  ls
+   65  rm jeremy
+   66  rm jeremy.pub
+   67  mkdir jeremy
+   68  ls
+   69  cd jeremy
+   70  git clone git@github.com:jerdoa/student_code.git
+   71  ls
+   72  cd 
+   73  ls
+   74  cd .ssh
+   75  ls
+   76  ssh-keygen -t ed25519 "jerdoa07@gmail.com"
+   77  ssh-keygen -t ed25519 -C "jerdoa07@gmail.com"
+   78  ls
+   79  cat id_ed25519.pub
+   80  ..
+   81  ls
+   82  cd jeremy
+   83  ls
+   84  git clone git@github.com:jerdoa/student_code.git
+   85  ls
+   86  cd student_code
+   87  touch index.html
+   88  ls
+   89  rm index.html
+   90  ls
+   91  mkdir jeremy
+   92  ls
+   93  cd jeremy
+   94  pwd
+   95  touch index.html
+   96  ls
+   97  vim jeremy
+   98  vim index.html
+   99  cat jeremy
+  100  open index.html
+  101  ls
+  102  git checkout -b first branch
+  103  git checkout -b first_branch
+  104  git status
+  105  git add index.html
+  106  git status
+  107  git commit -m this_is_my_first_commit
+  108  git status
+  109  git push -u origin first_branch
+  110  ls
+  111  pwd
+  112  ls
+  113  cd jeremy
+  114  ls
+  115  cd student_code
+  116  git branch
+  117  git branch -d first_branch
+  118  git checkout main
+  119  git branch -d first_branch
+  120  git branch
+  121  git fetch --all
+  122  ls
+  123  git reset --hard origin main
+  124  git reset --hard origin/main
+  125  ls
+  126  cd jeremy
+  127  ls
+  128  cd student_code
+  129  ls
+  130  history
+  131  history>.txt
+  132  ls
+  133  history > history.txt
+  134  ls
+  135  vim history.txt
+  136  less history.txt
+  137  rm history.txt
+  138  ls
+  139  cd jeremy
+  140  ls
+  141  jeremydoan > history.txt
