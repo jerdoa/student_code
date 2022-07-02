@@ -1,2 +1,44 @@
-<div id="title">This is a web page</div>
-<script src="starter.js"></script>
+
+<html>
+    <head>
+        <style>
+            #notes {
+                width: 50%;
+                height:300px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="reuben">hello world, Reuben</div>  -->
+        <h1>Reuben's notes</h1>
+        <div>
+            <textarea id='notes'></textarea>
+        </div>
+        <button id='save'>Save notes</button>
+        <h1>Saved notes</h1>
+        <div id='saved-notes'></div>
+    </body>
+    <script>
+        document.getElementById('save').addEventListener('click', (input) => {
+            const textArea = document.getElementById('notes');
+            const div = document.createElement('div');
+            const note = textArea.value;
+            div.innerHTML = note;
+            // clears the old value
+            textArea.value = '';
+            document.getElementById('saved-notes').appendChild(div)
+
+            // const fetchOptions = {
+            //     method: 'POST',
+            //     mode: 'no-cors',
+            //     headers: {
+            //         'Content-Type': 'application/x-www-form-urlencoded',
+            //     },
+            //     body: note,
+            // }
+            // fetch('http://localhost:3000/post/notes', fetchOptions).then((response) => {
+            //     console.log('the response is ', response);
+            // })
+        })
+    </script>
+</html>
