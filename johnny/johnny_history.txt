@@ -1,0 +1,188 @@
+    1  mkdir code
+    2  sudo o developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the di
+    3  sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    4  xcode-select --install
+    5  sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    6  git --version
+    7  $ brew install git
+    8  brew install git
+    9  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\n"
+   10  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/eruditestudent/.zprofile
+   11   eval "$(/opt/homebrew/bin/brew shellenv)"
+   12  sudo brew install git
+   13  brew install git
+   14  git --version
+   15  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   16  $ ssh-keygen -t ed25519 -C "peterandnhung@gmail.com"
+   17  ssh-keygen -t ed25519 -C "peterandnhung@gmail.com"
+   18  cd .ssh
+   19  ls -a
+   20  cat id_ed25519.pub
+   21  cd
+   22  ls
+   23  pwd
+   24  mkdir
+   25  mkdir ryan
+   26  ls
+   27  cd ryan
+   28  ls
+   29  touch somefile
+   30  ls
+   31  pwd
+   32  ls
+   33  rm -rf ryan
+   34  ls 
+   35  pdw
+   36  pwd
+   37  ls
+   38  cd Downloads/
+   39  pwd
+   40  ..
+   41  pwd
+   42  cd -
+   43  pwd
+   44  ..
+   45  pwd
+   46  ls
+   47  ..
+   48  ls
+   49  rm -rf .ssh
+   50  pwd
+   51  ls
+   52  ls -a
+   53  pwd
+   54  ssh-keygen -t ed25519 -C "JohnnyTTran12@gmail.com"
+   55  ls
+   56  lks -a
+   57  ls -a
+   58  cd .ssh
+   59  ls 
+   60  Cat id_ed25519.pub
+   61  cd
+   62  pwd
+   63  mkdr Johnny 
+   64  mkdir johnny 
+   65  ls
+   66  cd
+   67  cd johnny 
+   68  ls
+   69  ..
+   70  pwd
+   71  cd johnny 
+   72  ls
+   73  git clone git@github.com:JohnnyTTran/student_code.git
+   74  ls
+   75  cd student_code 
+   76  ls
+   77  touch filname
+   78  ..
+   79  cd stduent_code 
+   80  student_code 
+   81  touch index.html 
+   82  ls
+   83  rm filename
+   84  rm filname
+   85  ls
+   86  mk 
+   87  mkdir
+   88  ls
+   89  mkdir johnny 
+   90  ls
+   91  cd johnny 
+   92  ls
+   93  pwd
+   94  ls
+   95  touch html 
+   96  touch index.html
+   97  ls
+   98  rm index.html
+   99  ls
+  100  vim index.html
+  101  cat index.html
+  102  open index.html
+  103  git checkout -b johnny's branch\ngit branch\ngit status\ngit add . \nls\ngit commit -m "hello, it's johnny'\ngit amend \ngit -u orgin johnny's branch
+  104  ls
+  105  git checkout -b johnny's branch\ngit status\n'
+  106  git checkout -b johnny_branch
+  107  git branch
+  108  git status
+  109  git add index.html
+  110  git status
+  111  git commit -m "this is my first commit"
+  112  git status
+  113  ..
+  114  rm index.html
+  115  rm html
+  116  ls
+  117  cd johnny
+  118  ls
+  119  ;pwd
+  120  pwd
+  121  ls
+  122  git push -u orgin johnny_branch
+  123  ls
+  124  git push -u orgin johnny_branch
+  125  git remote -v
+  126  git@github.com:JohnnyTTran/student_code.git
+  127  ..
+  128  ls
+  129  ..
+  130  ls
+  131  rm -rf student_code
+  132  ls
+  133  history
+  134  git clone <html>\n    <head>\n        <style>\n            .johnny {color:aqua;font-size: 25px;}\n            \n        </style>\n    </head>\n    <body>\n        <div class="johnny">hello world, Johnny</div>\n 
+  135  git clone git@github.com:JohnnyTTran/student_code.git
+  136  ls
+  137  cd student_code
+  138  mkdir johnny
+  139  vim index.html
+  140  ls
+  141  cd johnny
+  142  ls
+  143  ..
+  144  ls
+  145  mv index.html johnny/index.html
+  146  ls
+  147  cd johnny
+  148  ls
+  149  open index.html
+  150  git checkout -b first_branch
+  151  git status
+  152  pwd
+  153  git add .
+  154  git status
+  155  git commit -m 'this is my first commit'
+  156  git status
+  157  git push -u origin first_branch
+  158  \tqqqq
+  159  ls
+  160  pwd
+  161  cd johnny 
+  162  pwd
+  163  ls
+  164  cd student code
+  165  cd student_code
+  166  git branch
+  167  git checkout main
+  168  git branch -d first_branch
+  169  git fetch --all
+  170  git branch 
+  171  git fetch --all
+  172  ls
+  173  git reset --hard orgin main 
+  174  git reset --hard origin main
+  175  git reset --hard origin/main
+  176  ls
+  177  history
+  178  ls
+  179  history >history.txt
+  180  ls
+  181  vim history.txt
+  182  less history.txt
+  183  rm history.txt
+  184  la
+  185  ls
+  186  cd johnny 
+  187  ls
+  188  history.txt
