@@ -1,0 +1,153 @@
+    1  $ ssh-keygen -t rsa -b 4096 -C "JohnnyTTran12@gmail.com\n
+    2  $ ssh-keygen -t rsa -b 4096 -C "JohnnyTTran12@gmail.com"\n
+    3  $ ssh-keygen -t rsa -b 4096 -C "JohnnyTTran12@gmail.com"\n
+    4  ssh-keygen -t rsa -b 4096 -C "JohnnyTTran12@gmail.com"\n
+    5  cd . ssh
+    6  ls /a
+    7  ls -a
+    8  cd .ssh
+    9  ls -a
+   10  cat id_rsa.pub
+   11  cd
+   12  ls
+   13  pwd
+   14  mkdir
+   15  mkdir 
+   16  mkdir johnny 
+   17  ls
+   18  ls
+   19  cd
+   20  pwd
+   21  cd johnny 
+   22  git clone git@github.com:JohnnyTTran/student_code.git
+   23  history
+   24  ls
+   25  history
+   26  git clone git@github.com:JohnnyTTran/student_code.git
+   27  ls
+   28  cd student_code
+   29  ls
+   30  ls -a
+   31  mkdir johnny
+   32  ls
+   33  cd johnny
+   34  touch index.html
+   35  ls
+   36  touch starter.js
+   37  ls
+   38  vim index.html
+   39  ks
+   40  ls
+   41  cat index.html
+   42  vim index.html
+   43  cat index.html
+   44  ls
+   45  git stash
+   46  git checkout -b starter_branch
+   47  git branch
+   48  git add .
+   49  git status
+   50  git commit -m "this is my first commit"
+   51  git status
+   52  git push -u origin starter_branch
+   53  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   54  ls
+   55  rm rfjohnny
+   56  rm -rf johnny
+   57  ls
+   58  pwd
+   59  ls
+   60  cd Downloads
+   61  ls
+   62  pwd
+   63  ..
+   64  pwd
+   65  cd -
+   66  pwd
+   67  ..
+   68  pwd
+   69  cd .ssh
+   70  ls
+   71  ..
+   72  ls
+   73  pwd
+   74  rm -rf .ssh
+   75  ls /a
+   76  ls -a
+   77  ssh-keygen -t ed25519 -C "peterandnhung@gmail.com"
+   78  ls
+   79  cd .ssh
+   80  ..
+   81  pwd
+   82  lks -a
+   83  ls -a
+   84  cd .ssh
+   85  ls
+   86  Cat id_ed25519.pub
+   87  cd
+   88  pwd
+   89  mkdir ryan
+   90  ls
+   91  cd ryan
+   92  pwd
+   93  git clone git@github.com:guywithglasse/student_code.git
+   94  ls
+   95  cd student_code
+   96  touch index.html
+   97  ls
+   98  rm index.html
+   99  ls
+  100  mkdir
+  101  ls
+  102  mkdir ryan
+  103  ls
+  104  cd ryan
+  105  ls
+  106  pwd
+  107  touch index.html
+  108  ls
+  109  vim index.html
+  110  cat index.html
+  111  open index.html
+  112  ls
+  113  git checkout -b ryan's branch\ngit branch\ngit status\ngit add\n'
+  114  git checkout -b
+  115  git checkout -b first_branch
+  116  git status
+  117  git add index.html
+  118  git status
+  119  git commit -m "this is my first commit"
+  120  git status
+  121  git push -u origin first branch
+  122  git push -u origin first_branch
+  123  ls
+  124  pwd
+  125  ls
+  126  cd ryan
+  127  ls
+  128  pwd
+  129  cd student_dode
+  130  cd student_code
+  131  ls
+  132  pwd
+  133  git branch
+  134  git checkout main
+  135  git branch -d first_branch
+  136  git checkout main
+  137  git branch
+  138  git fetch --all
+  139  ls
+  140  git reset --hard origin main
+  141  git reset --hard origin/main
+  142  ls
+  143  pwd
+  144  ls
+  145  history
+  146  ls
+  147  history>history.txt
+  148  ls
+  149  vim history.txt
+  150  ls
+  151  less history.txt
+  152  rm history.txt
+  153  cd ryan
