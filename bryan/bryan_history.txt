@@ -1,0 +1,80 @@
+    1  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    2  pwd
+    3  ls
+    4  cd
+    5  ls
+    6  cd Downloads
+    7  ls
+    8  pwd
+    9  ..
+   10  pwd
+   11  cd -
+   12  pwd
+   13  ..
+   14  cd .ssh
+   15  ls
+   16  ls -a
+   17  a
+   18  ls -a
+   19  pwd
+   20  ssh-keygen -t ed25519 -C "bklports2016@gmail.com"
+   21  ls
+   22  ls -a
+   23  cd .ssh
+   24  ls
+   25  cat id_ed25519.pub
+   26  cd
+   27  mkdir bryan
+   28  ls
+   29  cd bryan
+   30  ls
+   31  git clone git@github.com:04goat/student_code.git
+   32  ls
+   33  cd student code
+   34  cd student_code
+   35  touch index.html
+   36  ls
+   37  rm index.html
+   38  ls
+   39  mkdir bryan
+   40  ls
+   41  cd bryan
+   42  ls
+   43  pwd
+   44  touch index.html
+   45  ls
+   46  vim index.html
+   47  cat hello world, Bryan
+   48  open index.html
+   49  ls
+   50  git checkout -b first_branch
+   51  git status
+   52  git add index.html
+   53  git status
+   54  git commit - m "this is my first commit"
+   55  git commit -m "this is my first commit"
+   56  git push -u origin first_branch
+   57  pwd
+   58  ls
+   59  cd bryan
+   60  ls
+   61  cd student_code
+   62  git branch
+   63  git branch -d first_branch
+   64  git checkout main
+   65  git branch -d first_branch
+   66  git branch
+   67  git fetch --all
+   68  ls
+   69  git reset --hard origin main
+   70  git reset --hard origin/main
+   71  ls
+   72  history
+   73  history > history.txt
+   74  ls
+   75  vim history.txt
+   76  rm history.txt
+   77  ls
+   78  cd bryan 
+   79  ls
+   80  historyd > bryan_history.txtn 
