@@ -2,13 +2,25 @@
 <html>
     <head>
         <style>
-    .ryan {color: red; font-size: 50px; border: 5px solid blue; padding: 10px; margin: 20px}
-    </style>
-        <title>Ryan's page</title>
+            #notes {
+                width: 50%;
+                height: 300px;
+            }
+        </style>
+        <title> Ryan's Notes</title>
     </head>
     <body style="background-color: powderblue;">
-        <div class="ryan">hello world, ryan</div>
-        <h2 style="border-style: solid; font-family: sans-serif; font-size: 30px; text-align: center;">Facts About Ryan</h2>
-        <p style="font-family: verdana; font-size: 15px;">Ryan's favorite color is blue.</p>
+        <h1 style="border: 7px solid blue;font-family: sans-serif;">Ryan's Notes</h1>
+        <div>
+            <textarea id="notes"></textarea>
+        </div>
+        <button id="save">save notes</button>
+        <h1>saved notes</h1>
+        <div id="saved-notes"></div>
     </body>
+    <script>
+        document.getElementById("save").addEventListener("click", (input) => {
+            const textArea = document.getElementById("notes"); const div = document.createElement("div");const note = textArea.value;div.innerHTML = note; // clears the old value textArea.value = "";document.getElementById("saved-notes").appendChild(div)
+        })
+    </script>
 </html>
