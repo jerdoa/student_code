@@ -1,12 +1,32 @@
 <html>
     <head>
         <style>
-            .johnny {color:aqua;font-size: 25px;}
-            
+            #notes {
+                width: 80%;
+                height:300px;
+            }
         </style>
     </head>
     <body>
-        <div class="johnny">hello world, Johnny</div>
+        <h1>Johnny's notes not Reubens</h1>
+        <div>
+            <textarea id='notes'></textarea>
+        </div>
+        <button id='save'>Save notes</button>
+        <h1>Saved notes</h1>
+        <div id='saved-notes'></div>
     </body>
+    <script>
+        document.getElementById('save').addEventListener('click', (input) => {
+            const textArea = document.getElementById('notes');
+            const div = document.createElement('div');
+            const note = textArea.value;
+            div.innerHTML = note;
+            // clears the old value
+            textArea.value = '';
+            document.getElementById('saved-notes').appendChild(div)
+        })
+    </script>
 </html>
+
 
