@@ -3,7 +3,7 @@
         <style>
             .jeremy {
 
-                color: green;
+                color: blue;
                 font-size: 24px;
             }
         </style>
@@ -12,4 +12,32 @@
         <div class="jeremy">hello world, Jeremy</div> 
     </body>
 </html>
- 
+<html>
+    <head>
+        <style>
+            #notes {
+                width: 50%;
+                height:300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Jeremy's notes</h1>
+        <div>
+            <textarea id='notes'></textarea>
+        </div>
+        <button id='save'>Save notes</button>
+        <h1>Saved notes</h1>
+        <div id='saved-notes'></div>
+    </body>
+    <script>
+        document.getElementById('save').addEventListener('click', (input) => {
+            const textArea = document.getElementById('notes');
+            const div = document.createElement('div');
+            const note = textArea.value;
+            div.innerHTML = note;
+            textArea.value = '';
+            document.getElementById('saved-notes').appendChild(div)
+        })
+    </script>
+</html> 
