@@ -5,26 +5,57 @@
             #notes {
                 width: 50%;
                 height:300px;
+                display: block;
+            }
+            #saved-notes {
+                padding: 12px;
             }
         </style>
     </head>
     <body>
         <h1>Reuben's notes</h1>
-        <div>
-            <textarea id='notes'></textarea>
-        </div>
+        <textarea id='notes'></textarea>
         <button id='save'>Save notes</button>
         <h1>Saved notes</h1>
         <div id='saved-notes'></div>
     </body>
     <script>
-        document.getElementById('save').addEventListener('click', (input) => {
+        document.getElementById('saved-notes').addEventListener('mouseout', (input) => {
+            input.target.style.color = '';
+            input.target.style.fontWeight = '';
+        })
+        document.getElementById('saved-notes').addEventListener('mouseover', (input) => {
+            const div = input.target;
+            words = div.textContent.split(' ');
+            for (const word of words) {
+            debugger;
+                if (word == 'red' || word == 'green' || word == 'blue') {
+                    div.style.color = word;
+                    div.style.fontWeight = 'bold';
+                    return; 
+                }
+            }
+        })
+        document.getElementById('save').addEventListener('click', () => {
+            // gets the text area.
             const textArea = document.getElementById('notes');
+            const textAreaWords = textArea.value.split(' ');
+            let colorFound = false;
+            for (const word of textAreaWords) {
+                if (word == 'red' || word == 'green' || word == 'blue') {
+                    colorFound = true;
+                }
+            }
+            if (colorFound == false) {
+                return;
+            }
+            // creates a div.
             const div = document.createElement('div');
-            const note = textArea.value;
-            div.innerHTML = note;
-            // clears the old value
+            // sets the value of the div to the note value which is the value of the text area.
+            div.innerHTML = textArea.value;
+            // clears the old value.
             textArea.value = '';
+            // adds the div to the DOM under saved notes.
             document.getElementById('saved-notes').appendChild(div)
 
             // const fetchOptions = {
